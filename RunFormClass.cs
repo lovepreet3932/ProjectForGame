@@ -20,7 +20,7 @@ namespace ProjectForGame
             if (point == 1)
             {
                 Random rr = new Random();
-                Bullets = rr.Next(5, 5);
+                Bullets = rr.Next(1, 7);
                 notp = 1;
                 MessageBox.Show("Gun Spined");
             }
